@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import ProductsView from '../views/Products.vue'
 import CustomersView from '../views/Customers.vue'
+import CartView from '../views/Cart.vue'
 
 
 
@@ -16,9 +17,14 @@ export default new Router({
     component: ProductsView
     },
     {
-      path: '/customers',
+      path: '/Customers',
       name: 'CustomersView',
       component: CustomersView
+      },
+      {
+        path: '/Cart',
+        name: 'CartView',
+        component: CartView
       }
   ]
 })
