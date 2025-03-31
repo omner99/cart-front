@@ -3,7 +3,7 @@
         <header class="header navbar">
             <router-link to="/">Productos</router-link>
             <router-link to="/Cart">Carrito</router-link>
-            <router-link to="/admin">Administración</router-link>
+            <router-link to="/Admin">Administración</router-link>
         </header>
         <main class="main-content">
             <slot></slot>

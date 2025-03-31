@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import ProductsView from '../views/Products.vue'
 import CustomersView from '../views/Customers.vue'
 import CartView from '../views/Cart.vue'
+import AdminView from '../views/Adminsitracion.vue'
 
 
 
@@ -21,6 +22,11 @@ export default new Router({
       name: 'CustomersView',
       component: CustomersView
       },
+      {
+        path: '/Admin',
+        name: 'AdminView',
+        component: AdminView
+        },
       {
         path: '/Cart',
         name: 'CartView',
